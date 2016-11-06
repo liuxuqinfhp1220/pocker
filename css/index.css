@@ -1,0 +1,164 @@
+*{
+	margin:0;
+	padding:0;
+	border:0;
+	font-weight:normal;
+	list-style: none;
+	text-decoration: none;
+}
+.bg{
+	width:100%;
+	position:fixed;
+	background:#000 url(../image/2.jpg) center center no-repeat;
+	bottom:0;top:0;
+	left:0;right:0;
+	margin:auto;
+	display:none;
+	opacity:0;
+}
+.scene{
+	width:1000px;
+	height:600px;
+	margin:0 auto;
+	position:relative;
+}
+.pai{
+	width:120px;
+	height:168px;
+	background-size: 100%;
+	float:left;
+	position:absolute;
+	top:0;
+	left:425px;
+	margin-left:20px;
+	opacity: 0;
+	box-shadow: 0 0 3px #ccc;
+	cursor:pointer; 
+}
+.btn{
+	width:250px;
+	height:auto;
+	position:absolute;
+	left:50%;bottom:30px;
+	margin-left:-120px;
+	z-index:100;
+}
+.btn div{
+	width:115px;
+	height:124px;
+	text-align:center;
+	line-height:40px;
+    font-size:36px;
+    font-family:"黑体";
+    color:#fff;
+    cursor:pointer;
+}
+.bleft{
+	float:left;
+	background:url(../image/37.png) 0 0 no-repeat;
+}
+.bright{
+	float:right;
+	background:url(../image/37.png) -190px 0 no-repeat;
+}
+.sten{
+	width:100px;
+	height:30px;
+	padding:0 5px;
+	font-size:14px;
+	font-weight:600;
+	border-bottom:1px solid #191919;
+	color:#fff;
+	line-height:28px;
+	cursor:pointer;
+	text-align:center;
+}
+#time{
+	position:absolute;
+	right:20px;
+	top:20px;
+	border:0;
+	width:100px;
+}
+#score{
+	position:absolute;
+	right:20px;
+	top:70px;
+	border:0;
+	width:120px;
+}
+#score span{
+	color:blue;
+	padding:0 3px;
+	font-size:18px;
+}
+#time span{
+	color:red;
+	padding:0 3px;
+	font-size:18px;
+}
+.first{
+	width:806px;
+	height:606px;
+	position:fixed;
+	left:50%;top:50%;
+    margin-left:-401px;
+    margin-top:-301px;
+    border-left:3px outset #191919;
+    border-bottom:3px outset #191919; 
+}
+.game{
+   width:400px;
+   height:300px;
+   border-right:3px outset #191919;
+   border-top:3px outset #191919;
+   float:left;
+   background-size:100%;
+}
+#st{
+	background-image:url(../image/2.jpg);
+}
+.five{
+    background-image:url(../image/3.jpg);
+}
+.she{
+	background-image:url(../image/7.jpg);
+}
+.fly{
+	background-image:url(../image/6.jpg);
+}
+.total{
+	width:30px;
+	height:auto;
+	position:relative;
+	margin-left:20px;
+	margin-top:20px;
+}
+.menu{
+	width:30px;
+	height:30px;
+	background-size:100%;
+	background-image:url(../image/menu.png);
+	margin-left:30px;
+}
+.checkbox{
+	width:100px;
+	height:auto;
+	position:absolute;
+	left:0;
+	top:30px;
+	display:none;
+	background:#7BC142;
+}
+.st{
+	width:100px;
+	height:30px;
+	padding:0 5px;
+	font-size:14px;
+	font-weight:600;
+	color:#fff;
+	line-height:28px;
+	cursor:pointer;
+	text-align:center;
+	background:#7BC142;
+}
